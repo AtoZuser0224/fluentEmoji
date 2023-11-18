@@ -11,7 +11,7 @@ afterEvaluate {
         publications {
             register<MavenPublication>("release") {
                 groupId = "com.github.AtoZuser0224"
-                artifactId = ""
+                artifactId = "test"
                 version = "1.0.0"
 
                 afterEvaluate {
@@ -42,6 +42,7 @@ android {
                 "proguard-rules.pro"
             )
         }
+
     }
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_1_8
@@ -60,4 +61,5 @@ dependencies {
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
+
 }
