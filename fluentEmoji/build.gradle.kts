@@ -11,8 +11,8 @@ afterEvaluate {
         publications {
             register<MavenPublication>("release") {
                 groupId = "com.github.AtoZuser0224"
-                artifactId = "fluent-3D Emoji"
-                version = "1.0"
+                artifactId = ""
+                version = "1.0.0"
 
                 afterEvaluate {
                     from(components["release"])
