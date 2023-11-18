@@ -1,0 +1,41 @@
+package com.infinite.fluentemoji
+
+enum class Emoji(val representation: String) {
+    Alien("Alien"),
+    AlienMonster("Alien%20Monster"),
+    AnxiousFaceWithSweat("Anxious%20Face%20with%20Sweat"),
+    AstonishedFace("Astonished%20Face"),
+    CatWithTearsOfJoy("Cat%20with%20Tears%20of%20Joy"),
+    ClownFace("Clown%20Face"),
+    ColdFace("Cold%20Face"),
+    ConfoundedFace("Confounded%20Face"),
+    CowboyHatFace("Cowboy%20Hat%20Face"),
+    CryingCat("Crying%20Cat"),
+    CryingFace("Crying%20Face"),
+    DisguisedFace("Disguised%20Face"),
+    DowncastFaceWithSweat("Downcast%20Face%20with%20Sweat"),
+    DroolingFace("Drooling%20Face"),
+    EnragedFace("Enraged%20Face"),
+    ExplodingHead("Exploding%20Head"),
+    FaceBlowingAKiss("Face%20Blowing%20a%20Kiss"),
+    FaceExhaling("Face%20Exhaling"),
+    FaceHoldingBackTears("Face%20Holding%20Back%20Tears"),
+    FaceScreamingInFear("Face%20Screaming%20in%20Fear"),
+    FaceSavoringFood("Face%20Savoring%20Food"),
+    FaceVomiting("Face%20Vomiting"),
+    FaceWithoutMouth("Face%20Without%20Mouth"),
+    FaceWithCrossedOutEyes("Face%20with%20Crossed-Out%20Eyes"),
+    FaceWithDiagonalMouth("Face%20with%20Diagonal%20Mouth"),
+    FaceWithHandOverMouth("Face%20with%20Hand%20Over%20Mouth"),
+    FaceWithHeadBandage("Face%20with%20Head-Bandage"),
+    FaceWithMedicalMask("Face%20with%20Medical%20Mask"),
+    FaceWithMonocle("Face%20with%20Monocle"),
+    FaceWithOpenEyesAndHandOverMouth("Face%20with%20Open%20Eyes%20and%20Hand%20Over%20Mouth"),
+    FaceWithOpenMouth("Face%20with%20Open%20Mouth"),
+    FaceWithPeekingEye("Face%20with%20Peeking%20Eye"),
+    FaceWithRaisedEyebrow("Face%20with%20Raised%20Eyebrow"),
+    FaceWithRollingEyes("Face%20with%20Rolling%20Eyes"),
+    FaceWithSpiralEyes("Face%20with%20Spiral%20Eyes");
+
+    fun link(): String = "https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/${this.representation}"
+}
